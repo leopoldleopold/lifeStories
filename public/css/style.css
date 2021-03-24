@@ -1,0 +1,88 @@
+body {
+    background-color: grey;
+    margin: auto;
+    margin: center;
+}
+
+#wrapper {
+    margin: auto;
+    width: 800px;
+    height: 960px;
+    margin: center;
+    background: rgba(171, 114, 123, 0.572);
+}
+
+#infoText {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(222, 219, 219);
+}
+
+.userStory {
+    text-align: center;
+}
+
+.userForm {
+    padding-top: 10px;
+}
+
+#ageText {
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#age {
+    background-color: rgba(86, 84, 84, 0.565);
+    border-radius: 5px;
+    border-color: rgb(103, 75, 75);
+    border-width: 2px;
+    color: rgb(222, 219, 219);
+}
+
+textarea {
+    margin-top: 8px;
+    background-color: black;
+    color: green;
+    text-align: center;
+    border-radius: 3px;
+    border-color: green;
+}
+
+.userEmail {
+    padding-top: 5px;
+    text-align: center;
+}
+
+#email {
+    font-size: 12px;
+    width: 600px; 
+    background-color: black;
+    color: white;  
+    border-width: 0px;
+    padding: 12px;
+
+}
+
+#lifeButtons {
+    padding-top: 5px;
+}
+
+button {
+    background-color: rgb(4, 59, 4);
+    border-color: black;
+    border-width: 1px;
+    border-radius: 12px;
+    padding: 10px;
+    color: pink;
+}
+
+
+
+
+
+

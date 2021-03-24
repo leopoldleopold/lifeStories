@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="infoText">
+                HELP US BUILD A GAME BY SUBMITTING AN ANONYMOUS LIFE STORY!
+                THE FIRST 500 WILL BE USED, SOME EXCEPTIONS WILL BE MADE.
+                IF A STORY IS TOO SIMILAR TO ANOTHER, IT WILL BE OMITTED.
+                THANK YOU FOR YOUR ASSISTANCE AND FOR SHARING!
+            </div>
+            <div class="userStory">
+                <form class="userForm"> 
+                    <label id="ageText" for="age">SELECT AN AGE FOR WHEN STORY OCCURRED:</label>
+                        <select id="age" name="age">
+                            <option value="age">Age</option>
+                            <option value="adolescent">Adolescent</option>
+                            <option value="adult">Adult</option>
+                            <option value="elderly">Elderly</option>
+                        </select>
+                    <textarea type="text" id ="story" name="storySubmission" rows="25" cols="60">
+                    </textarea>
+                </form>
+            </div>
+            <div class="userEmail">
+                <input type="text" id="email" placeholder="TO RECEIVE UPDATES REGARDING GAME INPUT EMAIL, WILL BE SAVED SEPERATELY FROM STORY">
+                <div id="lifeButtons">
+                    <button type="button" id="submitEntry" onclick="submitEntry()">Submit Life Story</button>
+                </div>
+            </div>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+</html>
