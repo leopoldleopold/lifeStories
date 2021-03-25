@@ -1,7 +1,5 @@
 
 // receive entries
-var Submission = {age: "", email: "", story: ""};
-
 function submitEntry() {
 
     // resetting values
@@ -12,7 +10,6 @@ function submitEntry() {
 
     // story age
     let age = document.getElementById("age").value;
-
 
     // email
     let email = document.getElementById("email").value;
@@ -32,7 +29,7 @@ function submitEntry() {
 
         setTimeout(function() {document.getElementById("story").value = ""}, 3000);
     }
-    
+
     else{   
         valueReset();
         let thankYou = "";
@@ -52,11 +49,6 @@ function submitEntry() {
                 Submission.story = (story);
             }
         }
-        exportSubmission();
     }
     
-}
-function exportSubmission() {
-    console.log(Submission);
-    // module.exports = Submission;
 }
