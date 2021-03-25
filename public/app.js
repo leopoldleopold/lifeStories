@@ -1,4 +1,3 @@
-
 // transfer all info to env
 var firebaseConfig = {
     apiKey: "AIzaSyAu0pNoEMxSd7QcZqFSLJ1ZBqbUrRdRJ3Q",
@@ -68,9 +67,12 @@ function submitEntry() {
                     age: age,
                     story: story
                 },
-                email: email
             };
+            let newEmail = {
+                email: email
+            }
             storyData.ref().push(newStory);
+            storyData.ref().push(newEmail);
         }
 
         valueReset();
